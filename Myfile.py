@@ -27,6 +27,6 @@ wide_df.columns = [f"{col}_{num}" for col, num in wide_df.columns]
 wide_df = wide_df.reset_index()
 
 # Save to CSV
-wide_df.to_csv("UniversityID_UniqueCourses_Wide.csv", index=False)
+wide_df.to_csv("UniversityID_Wide.csv", index=False)
 
 print("✅ Cleaned and wide-format file saved as 'UniversityID_UniqueCourses_Wide.csv'")
